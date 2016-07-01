@@ -25,7 +25,9 @@ let g:airline_theme='powerlineish'
 let g:acp_behaviorSnipmateLength=1
 
 " ctags
-" set tags=$AMOS_NAT/../tags
+if $AMOS_NAT != ''
+  set tags=$AMOS_NAT/../tags
+endif
 
 " Open and close all the three plugins on the same time
  nmap <F2>  :TrinityToggleAll<CR>
