@@ -1,6 +1,12 @@
 # vim_plugins
-The vim plugins i'm currently using.
+The vim plugins I'm currently using.
 
+<h3>First thing first</h3>
+install plugins management plugins
+pathogen
+https://github.com/tpope/vim-pathogen
+
+<h3>install the following plugins into ~/.vim/bundle/</h3>
 Nerdtree
 https://github.com/scrooloose/nerdtree
 
